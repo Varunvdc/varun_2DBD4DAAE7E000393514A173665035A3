@@ -3,8 +3,6 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n - 1)
-
-# Input from the user
 try:
     num = int(input("Enter a non-negative integer: "))
     if num < 0:
